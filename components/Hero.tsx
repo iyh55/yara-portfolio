@@ -69,8 +69,8 @@ export default function Hero() {
             className="grid grid-cols-2 md:grid-cols-2 gap-6 max-w-2xl mx-auto mb-8"
           >
             {[
-              { label: "Projects", value: "10+" },
-              { label: "Certifications", value: "15+" },
+              { label: "Projects", value: "6+" },
+              { label: "Certifications", value: "12+" },
             ].map((stat, index) => (
               <motion.div
                 key={stat.label}

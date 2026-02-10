@@ -4,19 +4,18 @@ import { motion } from "framer-motion";
 import { Award } from "lucide-react";
 
 const certifications = [
-  { title: "AI Fundamentals", issuer: "IBM" },
-  { title: "Machine Learning", issuer: "Coursera" },
-  { title: "Deep Learning Specialization", issuer: "DeepLearning.AI" },
-  { title: "Natural Language Processing", issuer: "Stanford Online" },
-  { title: "Computer Vision", issuer: "Coursera" },
-  { title: "Data Science Professional", issuer: "IBM" },
-  { title: "Python for Data Science", issuer: "Coursera" },
-  { title: "TensorFlow Developer", issuer: "Google" },
-  { title: "AWS Cloud Practitioner", issuer: "Amazon" },
-  { title: "Azure AI Fundamentals", issuer: "Microsoft" },
-  { title: "Project Management", issuer: "PMI" },
-  { title: "Large Language Models", issuer: "نماذج لغوية كبيرة" },
-  { title: "Agile Development", issuer: "Scrum Alliance" },
+  { title: "CDMP® – Associate", issuer: "DAMA International®" },
+  { title: "Artificial Intelligence and Applications", issuer: "Huawei" },
+  { title: "LLMs Practitioner", issuer: "SDAIA | سدايا" },
+  { title: "INE/SDA Jr Data Scientist", issuer: "INE (Saudi Digital Academy)" },
+  { title: "Guided Learning Experience in Data Analytics", issuer: "IBM SkillsBuild" },
+  { title: "Data Visualization", issuer: "Coursera" },
+  { title: "Ask Questions to Make Data-Driven Decisions", issuer: "Google" },
+  { title: "Prepare Data for Exploration", issuer: "Google" },
+  { title: "Process Data from Dirty to Clean", issuer: "Google" },
+  { title: "Analyze Data to Answer Questions", issuer: "Google" },
+  { title: "Supervised Machine Learning: Regression and Classification", issuer: "DeepLearning.AI" },
+  { title: "Python for Data Science, AI & Development", issuer: "IBM" },
 ];
 
 export default function Certifications() {
