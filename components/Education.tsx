@@ -54,36 +54,16 @@ export default function Education() {
               viewport={{ once: true }}
               className="flex-grow"
             >
-              <h3 className="text-2xl md:text-3xl font-bold mb-2 text-palette-dustyBlue" style={{
-                fontFamily: "'Playwrite NZ Basic', cursive",
-                fontOpticalSizing: "auto",
-                fontWeight: 400,
-                fontStyle: "normal"
-              }}>
+              <h3 className="text-2xl md:text-3xl font-bold mb-2 text-palette-dustyBlue">
                 Bachelor of Science in Artificial Intelligence
               </h3>
-              <p className="text-lg text-palette-dustyBlue/80 mb-4 font-semibold" style={{
-                fontFamily: "'Playwrite NZ Basic', cursive",
-                fontOpticalSizing: "auto",
-                fontWeight: 400,
-                fontStyle: "normal"
-              }}>
+              <p className="text-lg text-palette-dustyBlue/80 mb-4 font-semibold">
                 (with Honors)
               </p>
-              <p className="text-palette-dustyBlue/70 mb-2" style={{
-                fontFamily: "'Playwrite NZ Basic', cursive",
-                fontOpticalSizing: "auto",
-                fontWeight: 400,
-                fontStyle: "normal"
-              }}>
+              <p className="text-palette-dustyBlue/70 mb-2">
                 College of Computer Science and Engineering
               </p>
-              <p className="text-palette-dustyBlue/70" style={{
-                fontFamily: "'Playwrite NZ Basic', cursive",
-                fontOpticalSizing: "auto",
-                fontWeight: 400,
-                fontStyle: "normal"
-              }}>
+              <p className="text-palette-dustyBlue/70">
                 University of Jeddah | May 2025
               </p>
             </motion.div>
