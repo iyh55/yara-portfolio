@@ -1,0 +1,187 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Exo+2:wght@300;400;500;600;700&family=Playwrite+NZ+Basic&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #FFFFFF; /* white */
+  color: #333333; /* dark gray for readable text */
+  overflow-x: hidden;
+  font-family: 'Exo 2', sans-serif;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #9DD5BE;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7BA4BA;
+}
+
+/* Glow Text */
+.glow-text {
+  text-shadow: 0 0 14px rgba(123, 164, 186, 0.6),
+               0 0 28px rgba(123, 164, 186, 0.4),
+               0 0 40px rgba(123, 164, 186, 0.2);
+}
+
+/* Card Glow */
+.card-glow {
+  background: rgba(123, 164, 186, 0.2); /* dusty blue soft */
+  border: 1px solid rgba(123, 164, 186, 0.3);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  backdrop-filter: blur(6px);
+  transition: all 0.3s ease;
+}
+
+.card-glow:hover {
+  background: rgba(123, 164, 186, 0.35);
+  border-color: rgba(157, 213, 190, 0.5); /* mint accent */
+  box-shadow: 0 0 20px rgba(157, 213, 190, 0.25);
+}
+
+/* Project Card - Pink Border */
+.project-card {
+  background: transparent;
+  border: 2px solid rgba(236, 72, 153, 0.5); /* pink/rose border */
+  border-radius: 1rem;
+  padding: 1.5rem;
+  backdrop-filter: blur(6px);
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+  background: transparent;
+  border-color: rgba(236, 72, 153, 0.8); /* brighter pink on hover */
+  box-shadow: 0 0 20px rgba(236, 72, 153, 0.3);
+}
+
+/* Graduation Project Card - Light Purple */
+.card-yellow {
+  background: rgba(216, 180, 254, 0.15); /* light purple soft background */
+  border: 2px solid rgba(216, 180, 254, 0.5); /* light purple border */
+  border-radius: 1rem;
+  padding: 1.5rem;
+  backdrop-filter: blur(6px);
+  transition: all 0.3s ease;
+}
+
+.card-yellow:hover {
+  background: rgba(216, 180, 254, 0.25);
+  border-color: rgba(216, 180, 254, 0.8); /* brighter light purple on hover */
+  box-shadow: 0 0 20px rgba(216, 180, 254, 0.4);
+}
+
+/* Button Styles */
+.btn-primary {
+  @apply px-6 py-3 rounded-lg font-orbitron font-semibold text-sm uppercase tracking-wider;
+  background: linear-gradient(to right, #9DD5BE, #C8E6C9);
+  @apply text-white border-2 border-transparent;
+  @apply hover:shadow-lg transition-all duration-300;
+  box-shadow: 0 0 8px rgba(157, 213, 190, 0.4);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 16px rgba(157, 213, 190, 0.6);
+}
+
+/* Background Animations */
+@keyframes float {
+  0% {
+    transform: translateY(0) translateX(0) rotate(0deg);
+  }
+  25% {
+    transform: translateY(-80px) translateX(60px) rotate(5deg);
+  }
+  50% {
+    transform: translateY(-40px) translateX(-60px) rotate(-5deg);
+  }
+  75% {
+    transform: translateY(-100px) translateX(40px) rotate(3deg);
+  }
+  100% {
+    transform: translateY(0) translateX(0) rotate(0deg);
+  }
+}
+
+@keyframes float-delayed {
+  0% {
+    transform: translateY(0) translateX(0) rotate(0deg);
+  }
+  33% {
+    transform: translateY(70px) translateX(-80px) rotate(-8deg);
+  }
+  66% {
+    transform: translateY(-90px) translateX(70px) rotate(8deg);
+  }
+  100% {
+    transform: translateY(0) translateX(0) rotate(0deg);
+  }
+}
+
+@keyframes wave {
+  0% {
+    transform: translateY(0) translateX(0) scale(1);
+  }
+  50% {
+    transform: translateY(-100px) translateX(-50px) scale(1.08);
+  }
+  100% {
+    transform: translateY(0) translateX(0) scale(1);
+  }
+}
+
+@keyframes pulse-slow {
+  0% {
+    opacity: 0.6;
+    transform: scale(1) translateX(0) translateY(0);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.15) translateX(30px) translateY(-30px);
+  }
+  100% {
+    opacity: 0.6;
+    transform: scale(1) translateX(0) translateY(0);
+  }
+}
+
+.animate-float {
+  animation: float 20s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+  animation: float-delayed 25s ease-in-out infinite;
+}
+
+.animate-wave {
+  animation: wave 18s ease-in-out infinite;
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 15s ease-in-out infinite;
+}
