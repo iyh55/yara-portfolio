@@ -39,12 +39,7 @@ export default function GraduationProject() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-4" style={{
-            fontFamily: "'Playwrite NZ Basic', cursive",
-            fontOpticalSizing: "auto",
-            fontWeight: 400,
-            fontStyle: "normal"
-          }}>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">
             <span className="glow-text">Graduation Project</span>
           </h2>
         </motion.div>
@@ -66,12 +61,6 @@ export default function GraduationProject() {
                 transition={{ duration: 0.5, delay: 0.3 }}
                 viewport={{ once: true }}
                 className="text-5xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-purple-300 via-purple-400 to-purple-500 bg-clip-text text-transparent"
-                style={{
-                  fontFamily: "'Playwrite NZ Basic', cursive",
-                  fontOpticalSizing: "auto",
-                  fontWeight: 400,
-                  fontStyle: "normal"
-                }}
               >
                 Color Harmony
               </motion.h3>
@@ -156,12 +145,7 @@ export default function GraduationProject() {
             transition={{ duration: 0.6, delay: 0.9 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-3xl md:text-4xl font-bold mb-12 text-center text-purple-600" style={{
-              fontFamily: "'Playwrite NZ Basic', cursive",
-              fontOpticalSizing: "auto",
-              fontWeight: 400,
-              fontStyle: "normal"
-            }}>
+            <h3 className="text-3xl md:text-4xl font-bold mb-12 text-center text-purple-600">
               How It Works
             </h3>
 

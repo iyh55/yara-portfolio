@@ -14,12 +14,7 @@ export default function Education() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-4" style={{
-            fontFamily: "'Playwrite NZ Basic', cursive",
-            fontOpticalSizing: "auto",
-            fontWeight: 400,
-            fontStyle: "normal"
-          }}>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">
             <span className="glow-text">Education</span>
           </h2>
         </motion.div>

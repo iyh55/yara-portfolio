@@ -13,14 +13,8 @@ export default function About() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-4" style={{
-            fontFamily: "'Playwrite NZ Basic', cursive",
-            fontOpticalSizing: "auto",
-            fontSize: "3.5rem",
-            fontWeight: 400,
-            fontStyle: "normal"
-          }}>
-            𝒶𝒷ℴ𝓊𝓉 𝓂ℯ
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">
+            About Me
           </h2>
         </motion.div>
 
@@ -44,36 +38,16 @@ export default function About() {
                 borderTop: "12px solid rgba(255, 192, 203, 0.4)",
               }} />
               
-              <p className="text-lg text-black leading-relaxed mb-4 text-center" style={{
-                fontFamily: "'Playwrite NZ Basic', cursive",
-                fontOpticalSizing: "auto",
-                fontWeight: 400,
-                fontStyle: "normal"
-              }}>
+              <p className="text-lg text-black leading-relaxed mb-4 text-center">
                 Hello, I'm <span style={{ color: "#F075AE", fontSize: "1.3em", fontWeight: "600" }}>Yara</span>. I'm an AI Engineer with a Bachelor's degree in Artificial Intelligence (with honors) and CDMP® certification.
               </p>
-              <p className="text-lg text-black leading-relaxed mb-4 text-center" style={{
-                fontFamily: "'Playwrite NZ Basic', cursive",
-                fontOpticalSizing: "auto",
-                fontWeight: 400,
-                fontStyle: "normal"
-              }}>
+              <p className="text-lg text-black leading-relaxed mb-4 text-center">
                 I focus on applied AI, where I design intelligent systems that support decision-making, improve processes, and turn data into practical solutions.
               </p>
-              <p className="text-lg text-black leading-relaxed mb-4 text-center" style={{
-                fontFamily: "'Playwrite NZ Basic', cursive",
-                fontOpticalSizing: "auto",
-                fontWeight: 400,
-                fontStyle: "normal"
-              }}>
+              <p className="text-lg text-black leading-relaxed mb-4 text-center">
                 Through my academic background and professional experience, I have worked on AI-powered tools across different domains, collaborating with real operational data and business needs.
               </p>
-              <p className="text-lg text-black leading-relaxed text-center" style={{
-                fontFamily: "'Playwrite NZ Basic', cursive",
-                fontOpticalSizing: "auto",
-                fontWeight: 400,
-                fontStyle: "normal"
-              }}>
+              <p className="text-lg text-black leading-relaxed text-center">
                 I'm passionate about building scalable and impactful AI solutions that bridge innovation and real-world application.
               </p>
             </div>

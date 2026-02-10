@@ -54,12 +54,7 @@ export default function Experience() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-4" style={{
-            fontFamily: "'Playwrite NZ Basic', cursive",
-            fontOpticalSizing: "auto",
-            fontWeight: 400,
-            fontStyle: "normal"
-          }}>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">
             <span className="glow-text">Experience</span>
           </h2>
         </motion.div>
@@ -95,12 +90,7 @@ export default function Experience() {
                   <div className="flex-grow">
                     <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-3">
                       <div>
-                        <h3 className="text-xl md:text-2xl font-bold mb-1 bg-gradient-to-r from-green-500 to-emerald-500 bg-clip-text text-transparent" style={{
-                          fontFamily: "'Playwrite NZ Basic', cursive",
-                          fontOpticalSizing: "auto",
-                          fontWeight: 400,
-                          fontStyle: "normal"
-                        }}>
+                        <h3 className="text-xl md:text-2xl font-bold mb-1 bg-gradient-to-r from-green-500 to-emerald-500 bg-clip-text text-transparent">
                           {exp.title}
                         </h3>
                         <p className="text-lg text-gray-800 font-semibold mb-1">

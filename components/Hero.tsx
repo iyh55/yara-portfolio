@@ -17,12 +17,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="text-5xl md:text-7xl font-bold mb-6" style={{
-              fontFamily: "'Playwrite NZ Basic', cursive",
-              fontOpticalSizing: "auto",
-              fontWeight: 400,
-              fontStyle: "normal"
-            }}>
+            <h1 className="text-5xl md:text-7xl font-bold mb-6">
               <span className="glow-text">Yara Alshehri</span>
             </h1>
           </motion.div>
@@ -33,12 +28,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            <h2 className="text-2xl md:text-4xl font-semibold mb-4 text-palette-dustyBlue" style={{
-              fontFamily: "'Playwrite NZ Basic', cursive",
-              fontOpticalSizing: "auto",
-              fontWeight: 400,
-              fontStyle: "normal"
-            }}>
+            <h2 className="text-2xl md:text-4xl font-semibold mb-4 text-palette-dustyBlue">
               AI Engineer
             </h2>
           </motion.div>
@@ -49,12 +39,6 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-lg md:text-xl text-pink-500 mb-8 max-w-3xl mx-auto leading-relaxed font-semibold"
-            style={{
-              fontFamily: "'Playwrite NZ Basic', cursive",
-              fontOpticalSizing: "auto",
-              fontWeight: 400,
-              fontStyle: "normal"
-            }}
           >
             Turning ideas into intelligent, scalable AI solutions
           </motion.p>
