@@ -112,6 +112,39 @@ export default function Navigation() {
                   {item.name}
                 </a>
               ))}
+              
+              {/* Mobile CV Download */}
+              <a
+                href="/images/Yara_Alshehri_AI_Engineer.pdf"
+                download="Yara_Alshehri_AI_Engineer.pdf"
+                className="block px-4 py-2 rounded-lg bg-palette-mint text-white hover:bg-palette-mint/80 transition-colors font-semibold"
+                onClick={() => setIsOpen(false)}
+              >
+                <div className="flex items-center space-x-2">
+                  <FileDown size={16} />
+                  <span>Download My CV</span>
+                </div>
+              </a>
+
+              {/* Mobile Social Links */}
+              <div className="flex items-center justify-center space-x-4 pt-2">
+                <a
+                  href="https://github.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-2 rounded-lg hover:bg-palette-dustyBlue/50 transition-colors"
+                >
+                  <Github size={20} className="text-palette-mint" />
+                </a>
+                <a
+                  href="https://linkedin.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-2 rounded-lg hover:bg-palette-dustyBlue/50 transition-colors"
+                >
+                  <Linkedin size={20} className="text-palette-mint" />
+                </a>
+              </div>
             </motion.div>
           )}
         </div>
